@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#080A0E">
+<title>15 组题目 · AI 四年史</title>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#080A0E;color:#EEF1F6;line-height:1.6;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  -webkit-font-smoothing:antialiased;
+  background-image:
+    radial-gradient(900px 620px at 82% -6%, rgba(255,107,61,.14), transparent 62%),
+    radial-gradient(760px 520px at -8% 14%, rgba(72,110,255,.12), transparent 60%);}
+.wrap{max-width:760px;margin:0 auto;padding:34px 20px 72px}
+.kicker{font-size:12px;letter-spacing:.3em;color:#FF6B3D;font-weight:700}
+h1{font-size:40px;line-height:1.15;margin:10px 0 8px;letter-spacing:-.02em;font-weight:800}
+.lead{font-size:16px;color:#93A1B8;margin:0 0 20px}
+.rules{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.chip{font-size:13px;color:#D5DCE8;border:1px solid rgba(255,255,255,.14);
+  border-radius:999px;padding:6px 12px;background:rgba(255,255,255,.03)}
+.chip b{color:#FF6B3D;font-weight:700;margin-right:6px}
+.nav{display:flex;gap:8px;overflow-x:auto;padding:4px 0 14px;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{flex:0 0 auto;text-decoration:none;color:#93A1B8;font-size:13px;
+  border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:5px 9px;
+  font-variant-numeric:tabular-nums}
+.nav a:active{color:#080A0E;background:#FF6B3D;border-color:#FF6B3D}
+.card{position:relative;border:1px solid rgba(255,255,255,.1);border-radius:18px;
+  padding:22px 20px 20px;margin:0 0 16px;background:rgba(255,255,255,.028);
+  scroll-margin-top:20px}
+.card:target{border-color:#FF6B3D;box-shadow:0 0 0 1px rgba(255,107,61,.5)}
+.head{display:flex;align-items:baseline;gap:12px;margin-bottom:6px}
+.no{font-size:26px;font-weight:800;color:#FF6B3D;font-variant-numeric:tabular-nums;
+  letter-spacing:.02em;line-height:1}
+.date{font-size:12px;color:#93A1B8;letter-spacing:.14em;font-weight:600}
+h2{font-size:21px;margin:4px 0 14px;font-weight:700;letter-spacing:-.01em}
+.say{font-size:19px;line-height:1.65;font-weight:600;margin:0 0 16px;
+  padding:14px 16px;border-left:3px solid #FF6B3D;background:rgba(255,107,61,.07);
+  border-radius:0 10px 10px 0}
+.shots{margin:0 0 14px;padding:0;list-style:none}
+.shots li{display:flex;gap:10px;font-size:15px;color:#D5DCE8;margin:0 0 8px;line-height:1.55}
+.shots li span{flex:0 0 auto;color:#FF6B3D;font-weight:700}
+.why{font-size:13.5px;color:#93A1B8;border-top:1px solid rgba(255,255,255,.08);
+  padding-top:12px;margin:0}
+.why b{color:#C9D3E3;font-weight:600}
+.foot{margin-top:28px;border-top:1px solid rgba(255,255,255,.1);padding-top:18px;
+  font-size:13px;color:#7E8AA0;line-height:1.8}
+.foot b{color:#C9D3E3}
+@media (max-width:420px){
+  .wrap{padding:26px 16px 60px}
+  h1{font-size:32px}
+  .say{font-size:17.5px}
+}
+</style></head>
+<body><div class="wrap">
+  <div class="kicker">WORKBUDDY · 现场共创</div>
+  <h1>15 组题目</h1>
+  <p class="lead">每桌领一道题，用 AI 拍 10 秒：从 2017 到 2026，一段一段讲清楚。</p>
+  <div class="rules"><div class="chip"><b>画幅</b>横屏 16:9</div><div class="chip"><b>时长</b>10 秒最佳</div><div class="chip"><b>画面</b>不加字幕</div><div class="chip"><b>数量</b>每组至少 1 条</div></div>
+  <div class="nav"><a href="#q01">01</a><a href="#q02">02</a><a href="#q03">03</a><a href="#q04">04</a><a href="#q05">05</a><a href="#q06">06</a><a href="#q07">07</a><a href="#q08">08</a><a href="#q09">09</a><a href="#q10">10</a><a href="#q11">11</a><a href="#q12">12</a><a href="#q13">13</a><a href="#q14">14</a><a href="#q15">15</a></div>
+  
+<article class="card" id="q01">
+  <div class="head"><div class="no">01</div><div class="date">2017.06</div></div>
+  <h2>八个字的地基</h2>
+  <p class="say">2017 年，八个人写了篇论文，叫《Attention Is All You Need》。</p>
+  <ul class="shots"><li><span>①</span>一张论文纸摊在桌上，纸面微微反光</li><li><span>②</span>八个人围桌的剪影，谁也没说话</li><li><span>③</span>纸上浮起一层网格，慢慢亮成神经网络的形状</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 今天几乎所有大模型，都是这篇论文的后代。</p>
+</article>
+<article class="card" id="q02">
+  <div class="head"><div class="no">02</div><div class="date">2018</div></div>
+  <h2>先读万卷书</h2>
+  <p class="say">2018 年，AI 学会先读完全网，再学你要它做的事。</p>
+  <ul class="shots"><li><span>①</span>瀑布一样往下滚的书页和网页</li><li><span>②</span>一根进度条从左走到右：预训练完成</li><li><span>③</span>同一个「大脑」，接上不同的任务插头</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 「预训练 + 微调」成了此后所有模型的标准动作。</p>
+</article>
+<article class="card" id="q03">
+  <div class="head"><div class="no">03</div><div class="date">2020</div></div>
+  <h2>大到会举一反三</h2>
+  <p class="say">2020 年，GPT-3 有 1750 亿个参数，给两个例子它就会。</p>
+  <ul class="shots"><li><span>①</span>一颗数字球体不断膨胀，表面全是参数</li><li><span>②</span>输入两个例子 → 中间闪过推理 → 输出一个答案</li><li><span>③</span>屏幕正中砸下一个数字：175B</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 规模第一次换来「不用教就会」的能力。</p>
+</article>
+<article class="card" id="q04">
+  <div class="head"><div class="no">04</div><div class="date">2021.06</div></div>
+  <h2>AI 坐进编辑器</h2>
+  <p class="say">2021 年，Copilot 坐进编辑器，写代码变成和它一起写。</p>
+  <ul class="shots"><li><span>①</span>编辑器里灰色代码一行行自动补全</li><li><span>②</span>屏幕被分成两半：一半是人，一半是 AI</li><li><span>③</span>光标停顿一秒，然后整段代码自己长出来</li></ul>
+  <p class="why"><b>为什么重要 ·</b> AI 第一次从「被问」变成「在旁边递工具」。</p>
+</article>
+<article class="card" id="q05">
+  <div class="head"><div class="no">05</div><div class="date">2022</div></div>
+  <h2>一句话画一张图</h2>
+  <p class="say">2022 年，Stable Diffusion 开源，画图从「会画」变成「会说」。</p>
+  <ul class="shots"><li><span>①</span>一句话输入，画布上落下像素雨</li><li><span>②</span>潦草草图逐渐变成完整画面</li><li><span>③</span>画布里上千个格子同时亮起，像整个画室在动</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 图像生成从实验室走进每个人的硬盘。</p>
+</article>
+<article class="card" id="q06">
+  <div class="head"><div class="no">06</div><div class="date">2022.11</div></div>
+  <h2>五天一百万</h2>
+  <p class="say">2022 年 11 月，ChatGPT 上线，五天一百万用户。</p>
+  <ul class="shots"><li><span>①</span>全黑画面浮出日期：2022.11</li><li><span>②</span>数字从 0 滚到 1,000,000，砸在画面正中</li><li><span>③</span>凌晨的房间，一整屏窗口还亮着</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 第一批熬夜摸索它的人，成了最早讲 AI 的创作者。</p>
+</article>
+<article class="card" id="q07">
+  <div class="head"><div class="no">07</div><div class="date">2023</div></div>
+  <h2>AI 睁开眼睛</h2>
+  <p class="say">2023 年，给它一张照片，它讲得出照片里发生了什么。</p>
+  <ul class="shots"><li><span>①</span>一张照片被推到画面中央</li><li><span>②</span>照片被拆成网格，逐块被「看懂」</li><li><span>③</span>照片边缘长出一行行文字，描述它自己</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 文字之外，AI 开始理解真实世界。</p>
+</article>
+<article class="card" id="q08">
+  <div class="head"><div class="no">08</div><div class="date">2023</div></div>
+  <h2>开源追上来</h2>
+  <p class="say">2023 年，开源模型追上来，AI 不再只属于几家公司。</p>
+  <ul class="shots"><li><span>①</span>一把锁咔哒打开</li><li><span>②</span>权重文件像瀑布一样流进全世界的机器</li><li><span>③</span>地图上几十个点同时亮起</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 门槛塌了，谁都能在自己的机器上跑模型。</p>
+</article>
+<article class="card" id="q09">
+  <div class="head"><div class="no">09</div><div class="date">2024</div></div>
+  <h2>从陪你聊到替你干</h2>
+  <p class="say">2024 年，Agent 登场：AI 从陪你聊，变成替你干。</p>
+  <ul class="shots"><li><span>①</span>对话框慢慢变成一张任务清单</li><li><span>②</span>清单上的条目一条条被打勾</li><li><span>③</span>一条流水线自己跑完，最后一格亮绿</li></ul>
+  <p class="why"><b>为什么重要 ·</b> AI 第一次能自己拆任务、自己动手。</p>
+</article>
+<article class="card" id="q10">
+  <div class="head"><div class="no">10</div><div class="date">2024</div></div>
+  <h2>一句话一段视频</h2>
+  <p class="say">2024 年，一句话能生成一段视频，拍片前先「生成一百个版本」。</p>
+  <ul class="shots"><li><span>①</span>一行文字被拉成一条时间轴</li><li><span>②</span>时间轴上依次长出画面</li><li><span>③</span>满屏九宫格预览，挑一个</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 视频从「拍出来」变成「先想出来」。</p>
+</article>
+<article class="card" id="q11">
+  <div class="head"><div class="no">11</div><div class="date">2025.01</div></div>
+  <h2>开源推理，成本打下来</h2>
+  <p class="say">2025 年初，DeepSeek-R1 开源，训练成本震惊硅谷。</p>
+  <ul class="shots"><li><span>①</span>成本曲线断崖式下坠</li><li><span>②</span>推理过程一行行展开成链</li><li><span>③</span>中国地图上亮起一个点</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 推理能力第一次被公开复盘，也第一次被开源。</p>
+</article>
+<article class="card" id="q12">
+  <div class="head"><div class="no">12</div><div class="date">2025</div></div>
+  <h2>人人一个数字员工</h2>
+  <p class="say">2025 年，开源智能体刷屏，人人都给自己配了个数字员工。</p>
+  <ul class="shots"><li><span>①</span>屏幕里爬出一排小方块</li><li><span>②</span>每个小方块都在各干各的活</li><li><span>③</span>桌面上弹出一个窗口：我的员工已上岗</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 智能体从演示视频，变成普通人每天在用的东西。</p>
+</article>
+<article class="card" id="q13">
+  <div class="head"><div class="no">13</div><div class="date">2025</div></div>
+  <h2>一句需求，一个应用</h2>
+  <p class="say">2025 年，一句需求几分钟出一个应用，会写想法的人第一次能自己做产品。</p>
+  <ul class="shots"><li><span>①</span>一句需求打在屏幕正中</li><li><span>②</span>代码像瀑布一样倾泻下来</li><li><span>③</span>应用在手机里跑起来，手指一划</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 做产品的门槛，从「会不会写」变成「想不想清楚」。</p>
+</article>
+<article class="card" id="q14">
+  <div class="head"><div class="no">14</div><div class="date">2025</div></div>
+  <h2>国产应用占七成</h2>
+  <p class="say">2025 年，国产 AI 应用占到七成，好用的工具才是真工具。</p>
+  <ul class="shots"><li><span>①</span>七成的饼图一格格填满</li><li><span>②</span>一排自绘的 App 图标依次亮起</li><li><span>③</span>用户的手指在屏幕上快速切换</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 创作者用脚投票：不看发布会，看能不能干活。</p>
+</article>
+<article class="card" id="q15">
+  <div class="head"><div class="no">15</div><div class="date">2026</div></div>
+  <h2>下一个节点，由我们共创</h2>
+  <p class="say">2026 年，Personal Agent 正在路上：它记得你的偏好，接管你的日程。</p>
+  <ul class="shots"><li><span>①</span>日程表被自动整理成一条线</li><li><span>②</span>一个人的数字分身，在同一张桌子对面</li><li><span>③</span>四年的时间轴收束成一个点，然后这个点亮了</li></ul>
+  <p class="why"><b>为什么重要 ·</b> 从会说话，到会思考，再到会行动，只用了四年。</p>
+</article>
+  <div class="foot">
+    <b>交片</b>：扫大屏上的收片码 → 选你们这组的编号 → 上传原片，看到 ✅ 才算成功。<br>
+    <b>备注</b>：每组至少 1 条，多做一条，后期挑更好的那条。
+  </div>
+</div></body></html>
